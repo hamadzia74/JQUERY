@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Title Page</title>
+
+		<!-- Bootstrap CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+		<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		<!--[if lt IE 9]>
+			<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.2/html5shiv.min.js"></script>
+			<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+		<![endif]-->
+	</head>
+	<body>
+		<h1 class="center">Hello World</h1>
+		<a href="">Google</a>
+		<a href="google.com">facebook</a>
+		<button  class="btn">submit</button>
+		<input type="" name="" id="in">
+      <div class="jumbotron">
+      	<h1>Hello world</h1>
+      	<div> Lorem ibsum Lorem ibsumLorem ibsumLorem ibsumLorem ibsumLorem ibsumLorem ibsumLorem ibsumLorem ibsumLorem ibsumLorem ibsumLorem ibsumLorem ibsumLorem ibsumLorem ibsumLorem ibsum	</div>
+      </div>
+        <p>ibsumLorem Lorem ibsum Lorem ibsumLorem ibsumLorem ibsumLorem ibsumLorem ibsumLorem ibsumLorem ibsumLorem ibsumLorem ibsumLorem ibsumLorem ibsumLorem ibsumLorem ibsumLorem ibsumLorem ibsum	</p>
+         <p>ibsumLorem Lorem ibsum Lorem ibsumLorem ibsumLorem ibsumLorem ibsumLorem ibsumLorem ibsumLorem ibsumLorem ibsumLorem ibsumLorem ibsumLorem ibsumLorem ibsumLorem ibsumLorem ibsumLorem ibsum	</p>
+      <button id="slide">submit</button>
+      <button id="slides">submit</button>
+       <button id="toggle">submit</button>
+       <ul>
+       	<li>Hello</li>
+       	<li>Hello 2</li>
+       	<li>Hello 3</li>
+       	<li>Hello 4</li>
+       </ul>
+       <div class="jumbotron">
+         <form action="" method="POST" role="form">			
+					<div class="form-group">
+						<input type="text" class="form-control" id="" placeholder="Input field" name="email">
+					</div>
+					<div class="form-group">
+						<input type="text" class="form-control" id="" placeholder="Input field" name="pass">
+					</div>
+				</form>
+                     </div>
+
+
+
+		<!-- jQuery -->
+		<script src="https://code.jquery.com/jquery.js"></script>
+		<!-- Bootstrap JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+		<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+ 		<script src="Hello World"></script>
+ 		<script type="text/javascript">
+          $(document).ready(function(){
+          	  $('.btn').click(function(){
+            	$('.center').hide()
+            })
+          	  $('#slide').click(function(){
+          	  	$('.jumbotron').slideUp(9000)
+          	  })
+          	  $('#slides').click(function(){
+          	  	$('.jumbotron').slideDown(9000)
+          	  })
+          	  $('#toggle').click(function(){
+          	  	$('.jumbotron').slideToggle(9000)
+          	  })
+          })
+
+          // $('p').wrapAll('<h1>');
+           $('ul').prepend('<li>hello append</li>')
+            $('#in').attr('disabled',false)
+ 			// $('.center').css('color','red');
+ 			// $('[href="google.com"]').css('color','orange');
+ 		</script>
+	</body>
+</html>
